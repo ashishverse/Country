@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header-container">
       <div className="header-content">
         <h2>
-          <a href="/">Where in the worlds?</a>
+          <a href="/">Where in the world?</a>
         </h2>
         <p className="theme-changer" onClick={toggleDarkMode}>
           <i className={`fa-regular ${isDarkMode ? 'fa-sun' : 'fa-moon'}`}></i>
